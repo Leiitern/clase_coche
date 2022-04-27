@@ -6,10 +6,10 @@ public class Main {
 
         suma(1,2,3); //Invoco la funcion suma
 
+
         Coche miCoche = new Coche(); //Objeto Coche
         miCoche.incrementaPuertas(); //Incrementa las puertas en 1
 
-        System.out.println(miCoche.puertas); //Muestro por pantalla el incremento
     }
 
     public static class Coche{ // Clase Coche
@@ -17,6 +17,7 @@ public class Main {
 
         public void incrementaPuertas(){
             puertas++;
+            System.out.println(puertas); //Muestro por pantalla el incremento
         }
     }
     public static void suma(int a, int b, int c){ //Funcion Suma
